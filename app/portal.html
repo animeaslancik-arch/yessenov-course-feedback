@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#702cff"><meta name="description" content="Yessenov University — Course Feedback System">
+<title>Course Feedback System — Yessenov University</title>
+<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg?v=2"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/app.v2.css?v=9">
+</head>
+<body>
+<main class="app-shell">
+<section id="loginView" class="screen landing-screen is-active" aria-label="Course Feedback System">
+<div class="announcement-bar"><span data-lt="announcement"></span><span>KZ · RU · EN · DE</span></div>
+<header class="public-nav">
+  <a class="public-brand" href="#top" aria-label="Yessenov University"><span class="public-brand-mark">YU</span><span><strong>YESSENOV</strong><small>COURSE FEEDBACK</small></span></a>
+  <nav class="public-links" aria-label="Landing navigation"><a href="#features" data-lt="navFeatures"></a><a href="#landingCourses" data-lt="navCourses"></a><a href="#teachers" data-lt="navTeachers"></a></nav>
+  <div class="public-actions"><div class="language-switcher" data-languages aria-label="Language"></div><button class="public-login" data-action="auth-open" data-lt="navLogin"></button><button class="landing-button compact" data-action="auth-open" data-lt="navCta"></button></div>
+</header>
+
+<div id="top" class="landing-main">
+  <section class="landing-hero">
+    <div class="hero-glow glow-one" aria-hidden="true"></div><div class="hero-glow glow-two" aria-hidden="true"></div>
+    <p class="landing-badge" data-lt="heroBadge"></p>
+    <h1><span data-lt="heroLine1"></span><span class="gradient-text" data-lt="heroLine2"></span></h1>
+    <p class="landing-lead" data-lt="heroCopy"></p>
+    <div class="landing-cta-row"><button class="landing-button" data-action="auth-open"><span data-lt="openPortal"></span><span>↗</span></button><button class="landing-button secondary" data-scroll="landingCourses"><span data-lt="viewCourses"></span><span>↓</span></button></div>
+    <div class="benefit-row"><span>✓ <b data-lt="benefit1"></b></span><span>✓ <b data-lt="benefit2"></b></span><span>✓ <b data-lt="benefit3"></b></span></div>
+
+    <div class="product-stage" aria-label="Course Feedback dashboard preview">
+      <div class="product-window">
+        <div class="product-window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span data-lt="previewLabel"></span><span>YESSENOV · 2026</span></div>
+        <div class="product-demo product-demo-v2">
+          <aside class="demo-rail">
+            <div class="demo-logo">YU</div>
+            <div class="demo-rail-links"><span class="is-current" data-icon="house">Главная</span><span data-icon="courses">Курсы</span><span data-icon="feedback">Отзывы</span><span data-icon="bell">Уведомления</span></div>
+            <div class="demo-rail-profile"><b>AS</b><span>Аслан</span></div>
+          </aside>
+          <div class="demo-workspace">
+            <div class="demo-heading"><div><small>STUDENT PORTAL / ГЛАВНАЯ</small><h2 data-lt="previewTitle"></h2><p data-lt="previewCopy"></p></div><div class="demo-avatar">AS</div></div>
+            <div class="demo-stats"><article><small data-t="active"></small><strong>03</strong><span><i class="demo-dot"></i> Открыты</span></article><article><small data-t="sent"></small><strong>05</strong><span><i class="demo-dot green"></i> Отправлено</span></article><article class="violet"><small data-t="average"></small><strong>4.7 <em>/ 5</em></strong><span>★★★★★</span></article></div>
+            <div class="demo-content-grid">
+              <section class="demo-courses"><div class="demo-section-title"><b>Мои курсы</b><span>Текущий семестр</span></div><div class="demo-course-list"><div><b>ICT101</b><span>ИКТ</span><em>Жанат Елубаевна</em><i>Отправлено</i></div><div><b>ENG101</b><span>Английский язык</span><em>Дина Загировна</em><i>Ожидает отзыв</i></div><div><b>HIS101</b><span>История Казахстана</span><em>Елена Николаевна</em><i>Рассмотрено</i></div></div></section>
+              <aside class="demo-response"><span data-icon="messages"></span><small>ОТВЕТ ПРЕПОДАВАТЕЛЯ</small><b>Материалы обновлены</b><p>Спасибо за подробный отзыв. В следующем занятии будет больше практических примеров.</p><em>15 октября</em></aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="landing-section intro-section"><p class="section-kicker" data-lt="featuresEyebrow"></p><h2 data-lt="featuresTitle"></h2><p class="section-lead" data-lt="featuresCopy"></p></section>
+  <section class="feature-grid">
+    <article class="feature-card"><div class="feature-number">01</div><div class="feature-visual survey-visual"><span>ПОНЯТНОСТЬ</span><div class="score-line"><b>1</b><b>2</b><b>3</b><b>4</b><b class="selected">5</b></div><span>КОММЕНТАРИЙ</span><div class="fake-field"></div></div><h3 data-lt="feature1Title"></h3><p data-lt="feature1Copy"></p></article>
+    <article class="feature-card accent-card"><div class="feature-number">02</div><div class="feature-visual privacy-visual"><div class="privacy-orbit"><span>ANON</span></div><div class="privacy-copy"><b>PRIVATE BY CHOICE</b><small>STUDENT IDENTITY PROTECTED</small></div></div><h3 data-lt="feature2Title"></h3><p data-lt="feature2Copy"></p></article>
+    <article class="feature-card"><div class="feature-number">03</div><div class="feature-visual status-visual"><div><span>ОТПРАВЛЕНО</span><b>12 OCT</b></div><div><span>РАССМОТРЕНО</span><b>15 OCT</b></div><div class="status-message">Спасибо за подробный отзыв. Материалы курса обновлены.</div></div><h3 data-lt="feature3Title"></h3><p data-lt="feature3Copy"></p></article>
+  </section>
+
+  <section id="teachers" class="campus-feature"><div class="campus-image"><img src="/assets/yessenov.jpg" alt="Yessenov University campus"></div><div class="campus-copy"><p class="section-kicker" data-lt="campusEyebrow"></p><h2 data-lt="campusTitle"></h2><p data-lt="campusCopy"></p><ul><li>8 курсов текущего семестра</li><li>Анонимные и открытые отзывы</li><li>Личный кабинет преподавателя</li></ul><button class="landing-button" data-action="auth-open"><span data-lt="openPortal"></span><span>↗</span></button></div></section>
+
+  <section id="landingCourses" class="landing-section courses-showcase"><p class="section-kicker" data-lt="coursesEyebrow"></p><h2 data-lt="coursesTitle"></h2><p class="section-lead" data-lt="coursesCopy"></p><div class="course-cloud"><span>ICT101 · ИКТ</span><span>ENG101 · Английский язык</span><span>GER101 · Немецкий язык</span><span>KAZ101 · Қазақ тілі</span><span>SOC101 · Социология</span><span>RUS101 · Русский язык</span><span>HIS101 · История Казахстана</span><span>MATH101 · Высшая математика</span></div></section>
+
+  <section class="comparison-section"><div class="comparison-heading"><p class="section-kicker" data-lt="compareEyebrow"></p><h2 data-lt="compareTitle"></h2><p data-lt="compareCopy"></p></div><div class="comparison-table"><div class="comparison-head"><span></span><b data-lt="oldWay"></b><b class="highlight" data-lt="newWay"></b></div><div><span>01</span><p data-lt="compare1"></p><p class="highlight">✓ <b data-lt="compare1New"></b></p></div><div><span>02</span><p data-lt="compare2"></p><p class="highlight">✓ <b data-lt="compare2New"></b></p></div><div><span>03</span><p data-lt="compare3"></p><p class="highlight">✓ <b data-lt="compare3New"></b></p></div></div></section>
+
+  <section class="landing-final"><p class="section-kicker" data-lt="finalEyebrow"></p><h2 data-lt="finalTitle"></h2><p data-lt="finalCopy"></p><button class="landing-button light" data-action="auth-open"><span data-lt="finalCta"></span><span>↗</span></button></section>
+</div>
+<footer class="public-footer"><a class="public-brand" href="#top"><span class="public-brand-mark">YU</span><span><strong>YESSENOV</strong><small>COURSE FEEDBACK</small></span></a><p data-lt="footerCopy"></p><a class="support-email" href="mailto:support@example.edu">Поддержка: support@example.edu</a><span>© 2026</span></footer>
+</section>
+
+<dialog id="authDialog" class="auth-dialog"><section class="auth-panel"><button class="auth-close" data-action="auth-close" aria-label="Close">×</button><div class="panel-topline"><span>STUDENT PORTAL</span><span>SECURE ACCESS</span></div><div class="auth-heading"><p class="step-label">ACCESS</p><h2 data-t="welcome"></h2><p data-t="authIntro"></p></div><div id="authContent"><p class="muted" data-t="loading"></p></div><p id="authError" class="inline-error" role="alert"></p><div class="auth-bottom"><p data-t="biometricNote"></p></div></section></dialog>
+<section class="screen dashboard-screen" id="dashboardView" aria-label="Student portal">
+<aside class="sidebar" id="sidebar"><button class="sidebar-close" data-action="menu-close" data-icon="close" aria-label="Close menu"></button><div class="sidebar-brand"><span class="brand-glyph" aria-hidden="true"><b>YU</b></span><span class="brand-copy"><strong>YESSENOV</strong><small>COURSE FEEDBACK</small></span></div><nav class="main-nav" id="mainNav" aria-label="Main navigation"></nav><div class="sidebar-note"><span>YESSENOV UNIVERSITY</span><strong data-t="voice"></strong><p data-t="privacyShort"></p></div><nav class="utility-nav"><button class="nav-item" data-page="settings"><span class="nav-icon" data-icon="settings"></span><span data-t="settings"></span></button><button class="nav-item" data-action="lock"><span class="nav-icon" data-icon="lock"></span><span data-t="lock"></span></button><button class="nav-item" data-action="signout"><span class="nav-icon" data-icon="logout"></span><span data-t="signout"></span></button></nav></aside>
+<div class="dashboard-main"><header class="dashboard-header"><button class="menu-button" id="menuButton" data-icon="menu" aria-label="Open menu" aria-expanded="false"></button><div class="breadcrumb"><span>STUDENT PORTAL</span><span>/</span><span id="breadcrumbTitle"></span></div><div class="header-actions"><div class="compact-language" data-languages aria-label="Language"></div><button class="notification-button" data-page="notifications" aria-label="Notifications"><span class="notification-glyph" data-icon="bell"></span><span class="notification-count" id="notificationCount" hidden>0</span></button><button class="profile-chip" data-page="settings"><span class="avatar" id="avatar"></span><span class="profile-copy"><strong id="profileName"></strong><small id="profileProgram"></small></span><span class="profile-chevron">⌄</span></button></div></header><div class="dashboard-content" id="content" aria-live="polite"></div></div>
+<button class="sidebar-scrim" id="sidebarScrim" aria-label="Close menu"></button>
+</section>
+</main>
+<dialog id="modal"><div class="modal-header"><h2 id="modalTitle"></h2><button id="closeModal" class="close-button" data-icon="close" aria-label="Close"></button></div><div id="modalContent"></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script type="module" src="/portal.js?v=11"></script>
+</body></html>

@@ -1,0 +1,13 @@
+{
+  "name": "yessenov-course-feedback",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "build": "node standalone/build.mjs",
+    "validate": "npm run build && node standalone/validate.mjs",
+    "test": "npm run build && node standalone/integration.mjs",
+    "preview": "node standalone/preview.mjs"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "yu",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-10-21",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "yessenov-course-feedback-db",
+      "database_id": "ecab9e11-ef4d-424a-9124-4841e42b36d3",
+      "migrations_dir": "drizzle"
+    }
+  ]
+}

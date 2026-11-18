@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Проверить проект",
+      "type": "shell",
+      "command": "npm run validate",
+      "problemMatcher": []
+    },
+    {
+      "label": "Запустить тесты",
+      "type": "shell",
+      "command": "npm test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Собрать Worker",
+      "type": "shell",
+      "command": "npm run build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Открыть локальный сайт",
+      "type": "shell",
+      "command": "npm run preview",
+      "problemMatcher": []
+    },
+    {
+      "label": "Запустить Python-аналитику",
+      "type": "shell",
+      "command": "C:\\Users\\Asl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe tools/feedback_analytics.py --help",
+      "problemMatcher": []
+    }
+  ]
+}
